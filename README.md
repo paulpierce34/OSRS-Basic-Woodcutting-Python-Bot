@@ -23,4 +23,6 @@ An immediate change I'd like to make would be to have a bunch of different pictu
 **Proof of concept:**
 https://youtu.be/9LXMtTYb2Jc
 
+Image used:
 
+![exact](https://user-images.githubusercontent.com/33561650/212556907-d7e15abb-bd1d-463b-b120-50ee4e64792b.PNG)
