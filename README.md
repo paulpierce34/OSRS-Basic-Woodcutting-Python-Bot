@@ -7,9 +7,6 @@ NOTE: You can tweak the confidence level of the image in the script if you want 
 
 An immediate change I'd like to make would be to have a bunch of different pictures of trees, iterate through them in a for loop, and if true go click on them and cut them down. As opposed to the one screenshot I have right now... which is still semi-accurate, but not as good as it can be. Anyways, I will be making constant iterations to this repository whenever I get time!
 
-Proof of concept:
-https://youtu.be/9LXMtTYb2Jc
-
 Requirements:
 - Python 3 (I am using version 3.10.9)
 - pyautogui (pip install pyautogui)
@@ -19,4 +16,7 @@ Requirements:
 HOW TO USE:
 - Open a terminal (cmd prompt or powershell)
 - cd to the directory where you have the python script located
-- execute script by typing 'python3 scriptname.py'
+- execute script by typing 'python3 woodCutter.py'
+
+Proof of concept:
+https://youtu.be/9LXMtTYb2Jc
