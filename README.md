@@ -26,3 +26,7 @@ https://youtu.be/9LXMtTYb2Jc
 Image used currently (included in repo:
 
 ![exact](https://user-images.githubusercontent.com/33561650/212556907-d7e15abb-bd1d-463b-b120-50ee4e64792b.PNG)
+
+Screenshot of script usage:
+![Capture3](https://user-images.githubusercontent.com/33561650/212556945-9860b6ba-6a80-42ab-88b6-ef17cc4b2503.PNG)
+
