@@ -9,6 +9,10 @@ Check out the pyautogui documentation here: https://pyautogui.readthedocs.io/en/
 
 An immediate change I'd like to make would be to have a bunch of different pictures of trees, iterate through them in a for loop, and if true go click on them and cut them down. As opposed to the one screenshot I have right now... which is still semi-accurate, but not as good as it can be. Anyways, I will be making constant iterations to this repository whenever I get time!
 
+**Limitations:**
+- Only officially supports regular logs (but I do recommend replacing screenshot with other types of trees if you wanted to test)
+- No ability to deposit into bank yet
+
 **Requirements:**
 - Python 3 (I am using version 3.10.9)
 - pyautogui (pip install pyautogui)
@@ -28,7 +32,7 @@ Image used currently (included in repo):
 
 ![exact](https://user-images.githubusercontent.com/33561650/212556907-d7e15abb-bd1d-463b-b120-50ee4e64792b.PNG)
 
-Best area for script as of version 1 (and the only area I mainly tested in):
+Best area for script as of version 1 (and the only area I mainly tested in; Highilghted in red):
 ![maps](https://user-images.githubusercontent.com/33561650/212736826-99720282-0a0c-4a93-9cf5-6bd2fb9ddc6d.PNG)
 
 
