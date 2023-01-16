@@ -26,7 +26,7 @@ Check out the pyautogui documentation here: https://pyautogui.readthedocs.io/en/
 **Proof of concept:**
 https://youtu.be/9LXMtTYb2Jc
 
-Image used currently (included in repo):
+Image used currently (more included in repo and script after recent update):
 
 ![exact](https://user-images.githubusercontent.com/33561650/212556907-d7e15abb-bd1d-463b-b120-50ee4e64792b.PNG)
 
