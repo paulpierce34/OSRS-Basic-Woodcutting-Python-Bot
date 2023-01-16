@@ -1,7 +1,6 @@
 import pyautogui
 import cv2
 import time
-import re
 
 pyautogui.FAILSAFE = True
 
