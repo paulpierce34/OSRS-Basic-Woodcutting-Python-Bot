@@ -32,7 +32,7 @@ Image used currently (included in repo):
 
 ![exact](https://user-images.githubusercontent.com/33561650/212556907-d7e15abb-bd1d-463b-b120-50ee4e64792b.PNG)
 
-Best area for script as of version 1 (and the only area I mainly tested in; Highilghted in red):
+Best area for script as of version 1 (and the only area I mainly tested in; Circled in red):
 ![maps](https://user-images.githubusercontent.com/33561650/212736826-99720282-0a0c-4a93-9cf5-6bd2fb9ddc6d.PNG)
 
 
