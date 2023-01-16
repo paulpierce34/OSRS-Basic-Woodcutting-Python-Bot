@@ -17,14 +17,14 @@ An immediate change I'd like to make would be to have a bunch of different pictu
 
 **HOW TO USE:**
 - Open a terminal (cmd prompt or powershell)
-- cd to the directory where you have the python script located
 - Type the command: 'pip install -r requirements.txt'  to install all python reqs
+- cd to the directory where you have the python script located
 - execute script by typing 'python3 woodCutter.py'
 
 **Proof of concept:**
 https://youtu.be/9LXMtTYb2Jc
 
-Image used currently (included in repo:
+Image used currently (included in repo):
 
 ![exact](https://user-images.githubusercontent.com/33561650/212556907-d7e15abb-bd1d-463b-b120-50ee4e64792b.PNG)
 
