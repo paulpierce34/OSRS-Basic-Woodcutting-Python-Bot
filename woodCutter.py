@@ -1,20 +1,33 @@
 import pyautogui
 import cv2
 import time
+import re
 
-pyautogui.FAILSAFE = True ## This allows you to move your mouse to upper lefthand corner of your screen as far as possible to cancel script. Refer to pyautogui docs
+pyautogui.FAILSAFE = True
 
+## Replace images of trees here if looking for something else other than regular trees
+allTrees = ["exact.png", "exact2.png", "exact3.png", "exact4.png", "exact5.png", "pinetree.png", "leaves.png"]
+
+count = 0
 while (1==1):
-    time.sleep(8) ## Sleep for 8 secs
-    treelocation = pyautogui.locateOnScreen('exact.png', confidence=0.4) ## Locate the tree you are looking for. Replace image with Yew, Magic, Oak, etc. if need be
-    if (treelocation):
-        print (f"{treelocation}") ## Print the tree location for user
-        pyautogui.moveTo(treelocation, duration=1) ## Move to tree location. NOTE: You can change the duration to move mouse faster/slower
-        pyautogui.click() ## Click on the tree you found
-    else:
-        print("None found, moving back to previous location."); 
-        pyautogui.moveTo(treelocation, duration=1) ## Nothing found I'm gonna move in the same direction as previous
-        pyautogui.click() ## Click
+    for treepic in allTrees:
+        print(f"Looking for {treepic}")
+        treelocation = pyautogui.locateOnScreen(treepic, confidence=0.4) ## Adjust confidence level of images (Valid entries: 0-1)
+        if (treelocation):
+            print (f"{treelocation}")
+            centeroftree = pyautogui.center(treelocation)
+            pyautogui.moveTo(centeroftree, duration=1)
+            pyautogui.click()
+            time.sleep(10)
+            break ## Break out of for loop so we restart the process and begin searching for first pic in array
+        else:
+            print("None found, searching and waiting for more.. moving eventually")
+            time.sleep(2) ## sleep 2 secs in between looking for trees to account for trees that respawn
+            if (count > 3):
+                pyautogui.moveTo(treelocation, duration=1)
+                pyautogui.click()
+                count = 0
+            count += 1
     
         
         
@@ -28,3 +41,6 @@ while (1==1):
 #im2 = pyautogui.screenshot('output.png')
 ####
 
+## LATER - try to inverse current location of tree and move to that when none are found. Essentially moves character back towards where tree was initially:
+#TreeLocationString = str(treelocation)
+#print(re.sub('[1-9][1-9][1-9]', 'yo', TreeLocationString)) ; instead of replacing with yo, just append a '-' to number. then we can click to that mouse location. Problem is idk how to do this in python, when I try '\1' it does not work
