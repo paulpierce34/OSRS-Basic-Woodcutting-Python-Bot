@@ -1,5 +1,5 @@
 # OSRS-Basic-Woodcutting-Python-Bot
-  This is an extremely basic python script that uses the pyautogui library to cut trees for you in old school runescape. This same concept can realistically be applied to almost any sort of grinding mechanism in runescape. Essentailly, you feed a screenshot of the item (in this case, a tree) to the script and the script looks for this item on your screen to click on it. There is an array of screenshots provided in this repository the script looks to match. Please feel free to plug/play your own screenshots.
+  This is a basic python script that uses the pyautogui library to cut trees for you in old school runescape. This same concept can realistically be applied to almost any sort of grinding mechanism in runescape. Essentailly, you feed a screenshot of the item (in this case, a tree) to the script and the script looks for this item on your screen to click on it. There is an array of screenshots provided in this repository the script looks to match. Please feel free to plug/play your own screenshots.
 
 Please feel free to use my concepts if they spark any ideas for you and run with them! 
 
