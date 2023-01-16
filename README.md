@@ -13,7 +13,7 @@ An immediate change I'd like to make would be to have a bunch of different pictu
 - Only officially supports regular logs (but I do recommend replacing screenshot with other types of trees if you wanted to test)
 - No ability to deposit into bank yet
 
-**Requirements:**
+**Requirements (included in requirements.txt file for easy use):**
 - Python 3 (I am using version 3.10.9)
 - pyautogui (pip install pyautogui)
 - Opencv (pip install opencv-python)
